@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/smartystreets/goconvey/convey"
-	"github.com/smartystreets/goconvey/web/server/contract"
+	. "github.com/anpryl/goconvey/convey"
+	"github.com/anpryl/goconvey/web/server/contract"
 )
 
 func TestParser(t *testing.T) {

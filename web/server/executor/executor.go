@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/smartystreets/goconvey/web/server/contract"
+	"github.com/anpryl/goconvey/web/server/contract"
 )
 
 const (

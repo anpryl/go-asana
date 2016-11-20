@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/smartystreets/goconvey/convey"
-	"github.com/smartystreets/goconvey/web/server/messaging"
+	. "github.com/anpryl/goconvey/convey"
+	"github.com/anpryl/goconvey/web/server/messaging"
 )
 
 func TestCategorize(t *testing.T) {

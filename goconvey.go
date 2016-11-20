@@ -7,6 +7,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"go/build"
 	"log"
 	"net"
 	"net/http"
@@ -17,15 +18,13 @@ import (
 	"strings"
 	"time"
 
-	"go/build"
-
-	"github.com/smartystreets/goconvey/web/server/api"
-	"github.com/smartystreets/goconvey/web/server/contract"
-	"github.com/smartystreets/goconvey/web/server/executor"
-	"github.com/smartystreets/goconvey/web/server/messaging"
-	"github.com/smartystreets/goconvey/web/server/parser"
-	"github.com/smartystreets/goconvey/web/server/system"
-	"github.com/smartystreets/goconvey/web/server/watch"
+	"github.com/anpryl/goconvey/web/server/api"
+	"github.com/anpryl/goconvey/web/server/contract"
+	"github.com/anpryl/goconvey/web/server/executor"
+	"github.com/anpryl/goconvey/web/server/messaging"
+	"github.com/anpryl/goconvey/web/server/parser"
+	"github.com/anpryl/goconvey/web/server/system"
+	"github.com/anpryl/goconvey/web/server/watch"
 )
 
 func init() {

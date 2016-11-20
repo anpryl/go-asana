@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go/build"
+	"github.com/anpryl/goconvey/convey/reporting"
+	"github.com/anpryl/goconvey/web/server/messaging"
 
-	"github.com/smartystreets/goconvey/convey/reporting"
-	"github.com/smartystreets/goconvey/web/server/messaging"
+	"go/build"
 )
 
 type Package struct {

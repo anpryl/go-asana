@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/smartystreets/goconvey/convey"
+	. "github.com/anpryl/goconvey/convey"
 )
 
 func TestShellCommandComposition(t *testing.T) {

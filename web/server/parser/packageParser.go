@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/smartystreets/goconvey/web/server/contract"
+	"github.com/anpryl/goconvey/web/server/contract"
 )
 
 var (
@@ -100,6 +100,7 @@ func (self *outputParser) registerTestFunction() {
 	self.tests = append(self.tests, self.test)
 	self.testMap[self.test.TestName] = self.test
 }
+
 func (self *outputParser) recordTestMetadata() {
 	testName := strings.Split(self.line, " ")[2]
 	if test, ok := self.testMap[testName]; ok {
